@@ -1,6 +1,11 @@
+variable "vpc_id" {
+
+}
+
 variable "prefix" {
   type = string
 }
+
 variable "cluster_name" {
 
 }
@@ -9,11 +14,11 @@ variable "retention_days" {
 
 }
 
-variable "desired_size" {
+variable "subnet_ids" {
 
 }
 
-variable "max_size" {
+variable "desired_size" {
 
 }
 
@@ -21,6 +26,6 @@ variable "min_size" {
 
 }
 
-variable "vpc_cidr_block" {
+variable "max_size" {
 
 }
